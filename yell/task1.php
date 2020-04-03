@@ -22,3 +22,4 @@ $shapes = [
 $Controller = ShapeController::getInstance();
 $Controller->draw($shapes);
 var_dump($shapes);
+exit;
